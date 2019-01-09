@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user{
+    max-width: 800px;
+    
+}
+
+.user-container{
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mail{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.mail:hover{
+    color: rgb(243, 78, 106);
+}
+
+.age{
+    font-size: 20px;
+}
